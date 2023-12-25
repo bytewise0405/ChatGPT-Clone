@@ -5,6 +5,7 @@ import { meta_data } from "@/constants";
 // App's External Imports
 import { Poppins } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = meta_data;
 
@@ -27,6 +28,7 @@ const RootLayout = ({ children }) => {
       <body className={poppins.className}>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
