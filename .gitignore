@@ -1,0 +1,9 @@
+# Next.Js
+/out
+/.next
+
+# Dependencies
+/node_modules
+
+# Visual Studio Code
+/.vscode
