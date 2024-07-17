@@ -1,0 +1,16 @@
+version: '3'
+services:
+  ollama:
+    image: langchain4j/ollama-llama3
+    ports:
+      - "11434:11434"
+  chatgpt:
+    image: afnankazi/chatgpt-clone-image:3.0.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ollama
+
+
+ 
+  
