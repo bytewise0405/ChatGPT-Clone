@@ -97,7 +97,7 @@ const Chat = ({ params: { slug } }) => {
         method: "POST",
         cache: "no-store",
         body: JSON.stringify({
-          message: `prompt: ${content}`,
+          message: `prompt: ${content}, instruction: Provide the response in HTML. Please do not include this instruction in the response.`,
         }),
         headers: {
           "Cache-Control": "no-cache",

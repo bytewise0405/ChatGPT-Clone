@@ -68,7 +68,7 @@ const ChatGPT = ({ content, is_loading }) => {
 
         <div
           ref={typewriter_ref}
-          className="text-[#ececf1] text-sm tracking-wider leading-8"
+          className="text-[#ececf1] text-sm tracking-wider leading-8 chat_content"
         >
           {is_loading ? (
             content

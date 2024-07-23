@@ -18,6 +18,38 @@
     background-color: hsl(250, 8%, 65%);
   }
 
+  .chat_content li {
+    @apply mb-2;
+  }
+
+  .chat_content ul {
+    @apply list-disc list-inside mb-4 pl-5;
+  }
+
+  .chat_content ol {
+    @apply list-decimal list-inside mb-4 pl-5;
+  }
+
+  .chat_content a {
+    @apply text-indigo-400 hover:underline;
+  }
+
+  .chat_content pre code {
+    @apply bg-transparent text-white p-0;
+  }
+  
+  .chat_content blockquote {
+    @apply border-l-4 border-gray-500 pl-4 italic mb-4;
+  }
+
+  .chat_content code {
+    @apply bg-gray-700 text-red-400 p-1 rounded font-mono;
+  }
+
+  .chat_content pre {
+    @apply bg-gray-800 text-white px-4 my-4 rounded-lg overflow-x-auto shadow-lg;
+  }
+
   .loader {
     width: 64px;
     aspect-ratio: 1;

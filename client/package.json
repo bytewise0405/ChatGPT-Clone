@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "name": "chat_gpt-clone",
   "scripts": {
     "dev": "next dev",
@@ -12,10 +12,7 @@
     "@auth0/nextjs-auth0": "^3.5.0",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
-    "lodash": "^4.17.21",
-    "markdown-to-txt": "^2.0.1",
     "next": "14.0.4",
-    "next-mdx-remote": "^5.0.0",
     "nextjs-toploader": "^1.6.12",
     "react": "^18",
     "react-dom": "^18",
