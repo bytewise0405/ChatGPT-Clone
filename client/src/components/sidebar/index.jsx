@@ -113,7 +113,7 @@ const Sidebar = ({
                   No History Found
                 </span>
                 <span className="text-sm">
-                  It looks like you haven't performed any actions yet.
+                  It looks like you haven&apos;t performed any actions yet.
                 </span>
               </div>
             </div>

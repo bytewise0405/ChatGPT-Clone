@@ -35,19 +35,26 @@
   }
 
   .chat_content pre code {
-    @apply bg-transparent text-white p-0;
+    display: block;
+    white-space: pre;
+    @apply bg-transparent text-white p-0 m-0;
   }
-  
+
   .chat_content blockquote {
     @apply border-l-4 border-gray-500 pl-4 italic mb-4;
   }
 
   .chat_content code {
-    @apply bg-gray-700 text-red-400 p-1 rounded font-mono;
+    @apply bg-gray-800 text-green-400 px-2 py-1 rounded font-mono;
   }
 
   .chat_content pre {
-    @apply bg-gray-800 text-white px-4 my-4 rounded-lg overflow-x-auto shadow-lg;
+    min-width: 42vw;
+    max-width: 42vw;
+    overflow-x: auto;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    @apply bg-gray-900 text-white px-6 my-4 rounded-lg shadow-lg relative overflow-x-auto;
   }
 
   .loader {
